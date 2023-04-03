@@ -1,10 +1,11 @@
+import Tweet from "./Tweet";
 function Avatar() {
   return (
     <div>
       <div class="relative">
         <img
           class="h-30 relative z-10"
-          src="https://cdn.pixabay.com/photo/2023/02/22/21/52/landscape-7807452_960_720.jpg"
+          src="https://pbs.twimg.com/profile_banners/2369246263/1634731654/1500x500"
           alt="Jay Rowah"
         />
         <img
@@ -23,8 +24,24 @@ function Avatar() {
 
       <div class="mt-5 flex">
         <div>
-          <span class="mx-2 font-bold">Jay Rowah</span>
-          <br />
+          <span class="mx-2 text-lg font-bold flex flex-column">
+            Jay Rowah
+            <span>
+              <a href="verified.co">
+                <svg
+                  viewBox="0 0 22 22"
+                  aria-label="Verified account"
+                  role="img"
+                  class="fill-blue-500 h-6 w-6"
+                  data-testid="icon-verified"
+                >
+                  <g>
+                    <path d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z"></path>
+                  </g>
+                </svg>
+              </a>
+            </span>
+          </span>
           <span class="mx-2 font-medium text-gray-500 dark:text-gray-200">
             @JRowah
           </span>
@@ -105,7 +122,7 @@ function Avatar() {
               <path d="M7 4V3h2v1h6V3h2v1h1.5C19.89 4 21 5.12 21 6.5v12c0 1.38-1.11 2.5-2.5 2.5h-13C4.12 21 3 19.88 3 18.5v-12C3 5.12 4.12 4 5.5 4H7zm0 2H5.5c-.27 0-.5.22-.5.5v12c0 .28.23.5.5.5h13c.28 0 .5-.22.5-.5v-12c0-.28-.22-.5-.5-.5H17v1h-2V6H9v1H7V6zm0 6h2v-2H7v2zm0 4h2v-2H7v2zm4-4h2v-2h-2v2zm0 4h2v-2h-2v2zm4-4h2v-2h-2v2z"></path>
             </g>
           </svg>
-          <span class="text-gray-500">Joined March 2014</span>
+          <span class="text-gray-500">Joined March 2009</span>
         </span>
       </div>
       <section class="flex ml-3 mt-2">
@@ -122,6 +139,36 @@ function Avatar() {
   );
 }
 
+function Timeline() {
+  return (
+    <div>
+      <section>
+        <div class="mt-3 ml-10 flex text-lg">
+          <span class="mr-20 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700 border-b-4 border-blue-500">
+            <a href="twts.com">Tweets</a>
+          </span>
+          <span class="mr-20 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700 border-b-indigo-500">
+            <a href="twts.com">Replies</a>
+          </span>
+          <span class="mr-20 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700">
+            <a href="twts.com">Media</a>
+          </span>
+          <span class="mr-20 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700">
+            <a href="twts.com">Likes</a>
+          </span>
+        </div>
+        <hr />
+      </section>
+    </div>
+  );
+}
+
 export default function Profile() {
-  return <Avatar />;
+  return (
+    <>
+      <Avatar />
+      <Timeline />
+      <Tweet />
+    </>
+  );
 }
