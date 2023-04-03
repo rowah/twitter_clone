@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import Aside from "./components/Aside";
 import Main from "./components/Main";
 import Trends from "./components/Trends";
