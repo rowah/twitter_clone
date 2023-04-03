@@ -34,7 +34,149 @@ function Search() {
 }
 
 function Media() {
-  return <div class="w-1/3 ml-4"></div>;
+  return (
+    <div class="ml-8 grid grid-cols-2 gap-1 mt-4 sm:gap-0.5 border rounded-lg">
+      <div class="col-span-1">
+        <img
+          src="https://cdn.pixabay.com/photo/2022/03/08/02/15/beach-island-7054907__340.jpg"
+          alt="one"
+          class="w-30 h-20"
+        />
+      </div>
+      <div class="col-span-1">
+        <img
+          src="https://cdn.pixabay.com/photo/2023/03/27/11/17/wild-plant-7880509__340.jpg"
+          alt="two"
+          class="w-30 h-20"
+        />
+      </div>
+      <div class="col-span-1">
+        <img
+          src="https://cdn.pixabay.com/photo/2023/03/17/12/48/feather-7858585__340.jpg"
+          alt="three"
+          class="w-30 h-20"
+        />
+      </div>
+      <div class="col-span-1">
+        <img
+          src="https://cdn.pixabay.com/photo/2023/03/25/20/30/podcast-7876792__340.jpg"
+          alt="four"
+          class="w-30 h-20"
+        />
+      </div>
+      <div class="col-span-1">
+        <img
+          src="https://cdn.pixabay.com/photo/2023/03/17/12/48/feather-7858585__340.jpg"
+          alt="three"
+          class="w-30 h-20"
+        />
+      </div>
+      <div class="col-span-1">
+        <img
+          src="https://cdn.pixabay.com/photo/2023/03/25/20/30/podcast-7876792__340.jpg"
+          alt="four"
+          class="w-30 h-20"
+        />
+      </div>
+    </div>
+  );
+}
+
+function WhoToFollow() {
+  return (
+    <div class="ml-6 mt-6 p-3 bg-gray-200 rounded-lg">
+      <h1 class="font-bold text-lg">You might like</h1>
+      <div class="space-y-3 ">
+        <a href="home.com" class="flex items-center px-4 -mx-2">
+          <img
+            class="object-cover mx-2 rounded-full h-11 w-11"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/1200px-Elon_Musk_Royal_Society_%28crop2%29.jpg"
+            alt="avatar"
+          />
+          <div>
+            <span class="mx-2 font-medium text-gray-800 dark:text-gray-200">
+              Elon Musk
+            </span>
+            <br />
+            <span class="mx-2 font-medium text-gray-500 dark:text-gray-200">
+              @ElonMusk
+            </span>
+          </div>
+          <button class="bg-black font-semibold py-2 px-4 border border-black-500 hover:border-transparent text-white ml-9 font-bold rounded-full mt-4 mr-3">
+            Follow
+          </button>
+        </a>
+      </div>
+      <div class="space-y-3 ">
+        <a href="home.com" class="flex items-center px-4 -mx-2">
+          <img
+            class="object-cover mx-2 rounded-full h-11 w-11"
+            src="https://media.istockphoto.com/id/1369244588/photo/silhouette-of-a-businessman-holding-a-flag.jpg?b=1&s=170667a&w=0&k=20&c=G2ZvdbHeeeQBwNWlgs8TyGWVV7lHtgXhc_FpLMALao4="
+            alt="avatar"
+          />
+          <div>
+            <span class="mx-2 font-medium text-gray-800 dark:text-gray-200">
+              Larry Madowo
+            </span>
+            <br />
+            <span class="mx-2 font-medium text-gray-500 dark:text-gray-200">
+              @LarryMadowo
+            </span>
+          </div>
+          <button class="bg-black font-semibold py-2 px-4 border border-black-500 hover:border-transparent text-white ml-2 font-bold rounded-full mt-4 mr-3">
+            Follow
+          </button>
+        </a>
+      </div>
+      <div class="space-y-3 ">
+        <a href="home.com" class="flex items-center px-4 -mx-2">
+          <img
+            class="object-cover mx-2 rounded-full h-11 w-11"
+            src="https://cdn.pixabay.com/photo/2023/03/02/14/46/pit-bull-7825554_640.jpg"
+            alt="avatar"
+          />
+          <div>
+            <span class="mx-2 font-medium text-gray-800 dark:text-gray-200">
+              Luo Things
+            </span>
+            <br />
+            <span class="mx-2 font-medium text-gray-500 dark:text-gray-200">
+              @Jaluoh
+            </span>
+          </div>
+          <button class="bg-black font-semibold py-2 px-4 border border-black-500 hover:border-transparent text-white ml-10 font-bold rounded-full mt-4 mr-3">
+            Follow
+          </button>
+        </a>
+      </div>
+      <a href="show.co" class="text-blue-600">
+        Show more
+      </a>
+    </div>
+  );
+}
+
+function TrendTopics() {
+  return (
+    <div class="ml-6 mt-6 p-3 bg-gray-200 rounded-lg">
+      <h1 class="font-bold text-lg">Trends for you</h1>
+      <div class="mt-3">
+        <h1 class="text-gray-500">Sports . Trending</h1>
+        <h2 class="font-bold">Manchester United</h2>
+        <h3 class="text-gray-500">100k Tweets</h3>
+      </div>
+      <div class="mt-3">
+        <h1 class="text-gray-500">Trending in Kenya</h1>
+        <h2 class="font-bold">Vikings</h2>
+        <h3 class="text-gray-500">10k Tweets</h3>
+      </div>
+      <div class="mt-3">
+        <h1 class="text-gray-500">Trending</h1>
+        <h2 class="font-bold">Game of Thrones</h2>
+        <h3 class="text-gray-500">15k Tweets</h3>
+      </div>
+    </div>
+  );
 }
 
 export default function Trends() {
@@ -42,6 +184,8 @@ export default function Trends() {
     <div>
       <Search />
       <Media />
+      <WhoToFollow />
+      <TrendTopics />
     </div>
   );
 }
