@@ -14,7 +14,7 @@ function Aside() {
           <div class="space-y-3 ">
             <a
               class="flex items-center px-3 py-2 text-gray-600 transition-colors duration-300 transform rounded-lg dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
-              href="home.co"
+              href="/home"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +146,7 @@ function Aside() {
 
             <a
               class="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-300 transform rounded-md dark:text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700"
-              href="home.co"
+              href="/"
             >
               <svg
                 class="w-5 h-5"
@@ -196,7 +196,7 @@ function Aside() {
             </a>
           </div>
           <div class="space-y-3 ">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full w-40">
+            <button class="bg-blue-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full w-40">
               Tweet
             </button>
           </div>

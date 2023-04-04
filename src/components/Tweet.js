@@ -88,7 +88,7 @@ export default function Tweet() {
 
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -107,7 +107,7 @@ export default function Tweet() {
 
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -125,7 +125,7 @@ export default function Tweet() {
               </div>
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -143,7 +143,7 @@ export default function Tweet() {
               </div>
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -205,7 +205,7 @@ export default function Tweet() {
             <div class="flex items-center">
               <div class="flex-1 text-center">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -224,7 +224,7 @@ export default function Tweet() {
 
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -243,7 +243,7 @@ export default function Tweet() {
 
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -262,7 +262,7 @@ export default function Tweet() {
 
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -280,7 +280,7 @@ export default function Tweet() {
               </div>
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -298,7 +298,7 @@ export default function Tweet() {
               </div>
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -352,7 +352,7 @@ export default function Tweet() {
             <div class="flex items-center">
               <div class="flex-1 text-center">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -371,7 +371,7 @@ export default function Tweet() {
 
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -390,7 +390,7 @@ export default function Tweet() {
 
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -409,7 +409,7 @@ export default function Tweet() {
 
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -427,7 +427,7 @@ export default function Tweet() {
               </div>
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -445,7 +445,7 @@ export default function Tweet() {
               </div>
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -504,7 +504,7 @@ export default function Tweet() {
             <div class="flex items-center">
               <div class="flex-1 text-center">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -523,7 +523,7 @@ export default function Tweet() {
 
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -542,7 +542,7 @@ export default function Tweet() {
 
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -561,7 +561,7 @@ export default function Tweet() {
 
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -579,7 +579,7 @@ export default function Tweet() {
               </div>
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
@@ -597,7 +597,7 @@ export default function Tweet() {
               </div>
               <div class="flex-1 text-center py-2 m-2">
                 <a
-                  href="mee.co"
+                  href="/"
                   class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg

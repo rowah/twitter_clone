@@ -10,7 +10,7 @@ This project solves no problems but is one that I use to keep my front-end skill
 
 ## How It's Made:
 
-**Tech used:** ReactJS, TailwindCSS,
+**Tech used:** ReactJS, TailwindCSS, HTML, CSS
 
 Clone the repository. In the project directory, you can run:
 
