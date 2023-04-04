@@ -317,63 +317,69 @@ function CreateTweetIcons() {
 }
 function MiddleNav() {
   return (
-    <div class="flex">
-      <div class="flex-1 m-2">
-        <h2 class="px-4 py-2 text-xl font-semibold text-black">Home</h2>
-      </div>
-      <div class="flex-1 px-4 py-2 m-2">
-        <a
-          href="/"
-          class=" text-2xl font-medium rounded-full text-black hover:bg-blue-800 hover:text-blue-300 float-right"
-        >
-          <svg class="m-2 h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-            <g>
-              <path d="M22.772 10.506l-5.618-2.192-2.16-6.5c-.102-.307-.39-.514-.712-.514s-.61.207-.712.513l-2.16 6.5-5.62 2.192c-.287.112-.477.39-.477.7s.19.585.478.698l5.62 2.192 2.16 6.5c.102.306.39.513.712.513s.61-.207.712-.513l2.16-6.5 5.62-2.192c.287-.112.477-.39.477-.7s-.19-.585-.478-.697zm-6.49 2.32c-.208.08-.37.25-.44.46l-1.56 4.695-1.56-4.693c-.07-.21-.23-.38-.438-.462l-4.155-1.62 4.154-1.622c.208-.08.37-.25.44-.462l1.56-4.693 1.56 4.694c.07.212.23.382.438.463l4.155 1.62-4.155 1.622zM6.663 3.812h-1.88V2.05c0-.414-.337-.75-.75-.75s-.75.336-.75.75v1.762H1.5c-.414 0-.75.336-.75.75s.336.75.75.75h1.782v1.762c0 .414.336.75.75.75s.75-.336.75-.75V5.312h1.88c.415 0 .75-.336.75-.75s-.335-.75-.75-.75zm2.535 15.622h-1.1v-1.016c0-.414-.335-.75-.75-.75s-.75.336-.75.75v1.016H5.57c-.414 0-.75.336-.75.75s.336.75.75.75H6.6v1.016c0 .414.335.75.75.75s.75-.336.75-.75v-1.016h1.098c.414 0 .75-.336.75-.75s-.336-.75-.75-.75z"></path>
-            </g>
-          </svg>
-        </a>
-      </div>
-    </div>
-  );
-}
-
-function FirstTweetHandle() {
-  return (
-    <div class="flex flex-shrink-0 p-4 pb-0">
-      <a href="/" class="flex-shrink-0 group block">
-        <div class="flex items-center">
-          <div>
-            <img
-              class="inline-block h-10 w-10 rounded-full"
-              src="https://pbs.twimg.com/profile_images/1545796996216377346/Q1Ef_usA_400x400.jpg"
-              alt=""
-            />
-          </div>
-          <div class="ml-3">
-            <p class="text-base leading-6 font-medium text-black">
-              DHOLUO DICTIONARY
-              <span class="text-sm leading-5 font-medium text-gray-400 group-hover:text-gray-300 transition ease-in-out duration-150">
-                @Thriving_luos . 16 April
-              </span>
-            </p>
-          </div>
+    <div class="bg-white sticky top-0 z-50">
+      <div class="flex">
+        <div class="flex-1 m-2">
+          <h2 class="px-4 py-2 text-xl font-semibold text-black">Home</h2>
         </div>
-      </a>
+        <div class="flex-1 px-4 py-2 m-2">
+          <a
+            href="/"
+            class=" text-2xl font-medium rounded-full text-black hover:bg-blue-800 hover:text-blue-300 float-right"
+          >
+            <svg class="m-2 h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <g>
+                <path d="M22.772 10.506l-5.618-2.192-2.16-6.5c-.102-.307-.39-.514-.712-.514s-.61.207-.712.513l-2.16 6.5-5.62 2.192c-.287.112-.477.39-.477.7s.19.585.478.698l5.62 2.192 2.16 6.5c.102.306.39.513.712.513s.61-.207.712-.513l2.16-6.5 5.62-2.192c.287-.112.477-.39.477-.7s-.19-.585-.478-.697zm-6.49 2.32c-.208.08-.37.25-.44.46l-1.56 4.695-1.56-4.693c-.07-.21-.23-.38-.438-.462l-4.155-1.62 4.154-1.622c.208-.08.37-.25.44-.462l1.56-4.693 1.56 4.694c.07.212.23.382.438.463l4.155 1.62-4.155 1.622zM6.663 3.812h-1.88V2.05c0-.414-.337-.75-.75-.75s-.75.336-.75.75v1.762H1.5c-.414 0-.75.336-.75.75s.336.75.75.75h1.782v1.762c0 .414.336.75.75.75s.75-.336.75-.75V5.312h1.88c.415 0 .75-.336.75-.75s-.335-.75-.75-.75zm2.535 15.622h-1.1v-1.016c0-.414-.335-.75-.75-.75s-.75.336-.75.75v1.016H5.57c-.414 0-.75.336-.75.75s.336.75.75.75H6.6v1.016c0 .414.335.75.75.75s.75-.336.75-.75v-1.016h1.098c.414 0 .75-.336.75-.75s-.336-.75-.75-.75z"></path>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="mt-3 ml-10 flex text-lg">
+        <span class="mr-20 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700 border-b-4 border-blue-500">
+          <a href="twts.com">For you</a>
+        </span>
+        <span class="mr-20 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700 border-b-indigo-500">
+          <a href="twts.com">Verified</a>
+        </span>
+        <span class="mr-20 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-200 hover:text-gray-700 border-b-indigo-500">
+          <a href="twts.com">Following</a>
+        </span>
+      </div>
     </div>
   );
 }
 
 function FirstTweet() {
   return (
-    <div class="pl-16">
-      <p class="text-base width-auto font-medium text-black flex-shrink">
-        "Let me die an African" is a powerful statement that reflects the desire
-        of people to die within their own cultural setting. Many Africans
-        believe that they have a spiritual connection to their land, which
-        prompts them to want to remain there until they pass away.
-      </p>
-
-      <div class="flex">
+    <div class="hover:bg-gray-100">
+      <div class="space-y-3 ">
+        <a href="home.com" class="flex items-center px-4 -mx-2">
+          <img
+            class="object-cover mx-2 rounded-full h-11 w-11 mt-3"
+            src="https://pbs.twimg.com/profile_images/1545796996216377346/Q1Ef_usA_400x400.jpg"
+            alt="avatar"
+          />
+          <div>
+            <span class="mx-2 font-medium text-gray-800 dark:text-gray-200">
+              Jay Rowah
+            </span>
+            <span class="mx-2 font-medium text-gray-500 dark:text-gray-200">
+              @JRowah
+            </span>
+            <span class="text-gray-500">Oct 25, 2022</span>
+          </div>
+        </a>
+      </div>
+      <a href="twee.co">
+        <p class="ml-20 mr-1">
+          "Let me die an African" is a powerful statement that reflects the
+          desire of people to die within their own cultural setting. Many
+          Africans believe that they have a spiritual connection to their land,
+          which prompts them to want to remain there until they pass away.
+        </p>
+      </a>
+      <div class="flex ml-20">
         <div class="w-full">
           <div class="flex items-center">
             <div class="flex-1 text-center">
@@ -490,6 +496,7 @@ function FirstTweet() {
           </div>
         </div>
       </div>
+      <hr class="mt-2" />
     </div>
   );
 }
@@ -654,45 +661,38 @@ function SecondTweet() {
   );
 }
 
-function ThirdTweetHandle() {
-  return (
-    <div class="flex flex-shrink-0 p-4 pb-0">
-      <a href="/" class="flex-shrink-0 group block">
-        <div class="flex items-center">
-          <div>
-            <img
-              class="inline-block h-10 w-10 rounded-full"
-              src="https://pbs.twimg.com/profile_images/1121328878142853120/e-rpjoJi_bigger.png"
-              alt=""
-            />
-          </div>
-          <div class="ml-3">
-            <p class="text-base leading-6 font-medium text-black">
-              Sonali Hirave
-              <span class="text-sm leading-5 font-medium text-gray-400 group-hover:text-gray-300 transition ease-in-out duration-150">
-                @ShonaDesign . 16 April
-              </span>
-            </p>
-          </div>
-        </div>
-      </a>
-    </div>
-  );
-}
-
 function ThirdTweet() {
   return (
-    <div class="pl-16">
-      <p class="text-base width-auto font-medium text-black flex-shrink">
-        Day 07 of the challenge{" "}
-        <span class="text-blue-400">#100DaysOfCode</span>I was wondering what I
-        can do with <span class="text-blue-400">#tailwindcss</span>, so just
-        started building Twitter UI using Tailwind and so far it looks so
-        promising. I will post my code after completion. [07/100]
-        <span class="text-blue-400"> #WomenWhoCode #CodeNewbie</span>
-      </p>
-
-      <div class="flex">
+    <div class="hover:bg-gray-100">
+      <div class="space-y-3 ">
+        <a href="home.com" class="flex items-center px-4 -mx-2">
+          <img
+            class="object-cover mx-2 rounded-full h-11 w-11 mt-3"
+            src="https://pbs.twimg.com/profile_images/1121328878142853120/e-rpjoJi_bigger.png"
+            alt="avatar"
+          />
+          <div>
+            <span class="mx-2 font-medium text-gray-800 dark:text-gray-200">
+              Sonali Hirave
+            </span>
+            <span class="mx-2 font-medium text-gray-500 dark:text-gray-200">
+              @ShonaDesign
+            </span>
+            <span class="text-gray-500">Oct 25, 2022</span>
+          </div>
+        </a>
+      </div>
+      <a href="twee.co">
+        <p class="ml-20 mr-1">
+          Day 07 of the challenge{" "}
+          <span class="text-blue-400">#100DaysOfCode</span>I was wondering what
+          I can do with <span class="text-blue-400">#tailwindcss</span>, so just
+          started building Twitter UI using Tailwind and so far it looks so
+          promising. I will post my code after completion. [07/100]
+          <span class="text-blue-400"> #WomenWhoCode #CodeNewbie</span>
+        </p>
+      </a>
+      <div class="flex ml-20">
         <div class="w-full">
           <div class="flex items-center">
             <div class="flex-1 text-center">
@@ -809,6 +809,7 @@ function ThirdTweet() {
           </div>
         </div>
       </div>
+      <hr class="mt-2" />
     </div>
   );
 }
@@ -847,36 +848,6 @@ function Trends() {
           </div>
         </form>
       </div>
-
-      {/* <div class="relative text-gray-300 w-80 p-5 pb-0 mr-16">
-        <button type="submit" class="absolute ml-4 mt-3 mr-4">
-          <svg
-            class="h-4 w-4 fill-current"
-            xmlns="http://www.w3.org/2000/svg"
-            // xmlns:xlink="http://www.w3.org/1999/xlink"
-            version="1.1"
-            id="Capa_1"
-            x="0px"
-            y="0px"
-            viewBox="0 0 56.966 56.966"
-            style={{ marginRight: "spacing" + "em" }}
-            // xml:space="preserve"
-            width="512px"
-            height="512px"
-          >
-            <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
-          </svg>
-        </button>
-
-        <input
-          type="search"
-          name="search"
-          placeholder="Search Twitter"
-          class="bg-white h-10 px-10 pr-5 w-full rounded-full text-sm focus:outline-none bg-purple-white shadow rounded border-1"
-        />
-      </div> */}
-
-      {/* <!--second-trending tweet section--> */}
       <div class="max-w-sm rounded-lg bg-gray-200 overflow-hidden shadow-lg m-4 mr-20">
         <div class="flex">
           <div class="flex-1 m-2">
@@ -1221,8 +1192,6 @@ export default function Home() {
           <CreateTweetIcons />
 
           <hr class="border-gray-200 border-1" />
-
-          <FirstTweetHandle />
           <FirstTweet />
 
           <hr class="border-gray-200" />
@@ -1232,7 +1201,6 @@ export default function Home() {
 
           <hr class="border-gray-200" />
 
-          <ThirdTweetHandle />
           <ThirdTweet />
 
           <hr class="border-gray-200" />
