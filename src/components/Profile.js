@@ -52,7 +52,7 @@ function Avatar() {
         <span>Software Developer, </span>
         <span>Educator(PGDE)</span>
         <br />
-        <span>#100Devs</span>
+        <span>#100Devs </span>
         <span>Elixir || JavaScript || NodeJS || ReactJS || AI.</span>
         <br />
         <span>Tech Writer</span>

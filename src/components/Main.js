@@ -2,7 +2,7 @@ import Profile from "./Profile";
 function Main() {
   return (
     <div class="w-1/2 border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
-      <div class="flex">
+      <div class="flex sticky top-0 z-50 bg-white">
         <button
           type="button"
           class=" text-black rounded-l-md border-r border-gray-100 py-2 hover:bg-grey-700 hover:bg-grey px-3"
