@@ -1,6 +1,6 @@
 import Aside from "./components/Aside";
 import Main from "./components/Main";
-import Trends from "./components/Trends";
+import ProfileRightAside from "./components/ProfileRightAside";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       </header> */}
       <Aside />
       <Main />
-      <Trends />
+      <ProfileRightAside />
     </div>
   );
 }

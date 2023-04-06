@@ -1,4 +1,6 @@
 import Aside from "./Aside";
+import TrendTopics from "./TrendTopics";
+import WhoToFollow from "./WhoToFollow";
 
 function CreateTweet() {
   return (
@@ -1024,9 +1026,12 @@ export default function Home() {
 
           <hr class="border-gray-200" />
         </div>
-        <Trends />
 
         <div />
+        <div>
+          <WhoToFollow />
+          <TrendTopics />
+        </div>
       </div>
     </div>
   );
