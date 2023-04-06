@@ -33,7 +33,7 @@ function Aside() {
             Home
           </a>
           <a
-            href="/"
+            href="/explore"
             class="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-semibold rounded-full hover:bg-gray-300 hover:text-black"
           >
             <svg
@@ -50,7 +50,7 @@ function Aside() {
             Explore
           </a>
           <a
-            href="/"
+            href="/notifications"
             class="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:text-black"
           >
             <svg
@@ -67,7 +67,7 @@ function Aside() {
             Notifications
           </a>
           <a
-            href="/"
+            href="/messages"
             class="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:text-black"
           >
             <svg
@@ -84,7 +84,7 @@ function Aside() {
             Messages
           </a>
           <a
-            href="/"
+            href="bookmarks/"
             class="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:text-black"
           >
             <svg
@@ -115,10 +115,10 @@ function Aside() {
             >
               <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
             </svg>
-            Lists
+            Twitter Blue
           </a>
           <a
-            href="/"
+            href="/profile"
             class="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:text-black"
           >
             <svg
