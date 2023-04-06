@@ -1,4 +1,5 @@
 import Aside from "./Aside";
+import Policy from "./Policy";
 import WhoToFollow from "./WhoToFollow";
 
 function Main() {
@@ -9,7 +10,10 @@ export default function Bookmarks() {
     <div class="mx-20 mt-4 flex">
       <Aside />
       <Main />
-      <WhoToFollow />
+      <div>
+        <WhoToFollow />
+        <Policy />
+      </div>
     </div>
   );
 }
