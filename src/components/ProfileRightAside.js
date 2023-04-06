@@ -2,8 +2,8 @@ import TrendTopics from "./TrendTopics";
 import WhoToFollow from "./WhoToFollow";
 function Search() {
   return (
-    <div class="w-9/10">
-      <form class="ml-10 flex sticky top-0 z-50">
+    <div class="w-9/10 sticky top-4 z-50">
+      <form class="ml-10 flex">
         <div class="relative">
           <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
             <svg
