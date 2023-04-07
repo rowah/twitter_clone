@@ -3,7 +3,7 @@ import WhoToFollow from "./WhoToFollow";
 import Policy from "./Policy";
 
 function Main() {
-  return <div class="w-3/5 border border-gray-200 h-auto  border-t-0"></div>;
+  return <div class="w-1/2 border border-gray-200 h-auto  border-t-0"></div>;
 }
 export default function Messages() {
   return (
