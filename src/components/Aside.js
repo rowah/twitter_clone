@@ -15,7 +15,7 @@ function Aside() {
         <nav class="mt-5 px-2">
           <a
             href="/home"
-            class="group flex items-center px-2 py-2 text-base leading-6 font-semibold rounded-full bg-gray-300 text-black"
+            class="group flex items-center px-2 py-2 text-base leading-6 font-semibold rounded-full hover:bg-gray-300 focus:bg-gray-300  text-black"
           >
             <svg
               class="mr-4 h-6 w-6 "

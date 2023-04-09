@@ -23,8 +23,28 @@ function NBAGames() {
           Sofapaka FC<span>2</span>
         </h1>
 
-        <h1 class="bg-red-600 h-10 pt-2 pl-8">
+        <h1 class="bg-red-900 h-10 pt-2 pl-8">
           Mathari United<span>0</span>
+        </h1>
+      </div>
+      <div class="ml-8 mr-6 mt-4">
+        <span>EPL</span>
+        <span>Final . Man Utd Won</span>
+        <h1 class="bg-red-600 h-10 text-white pt-2 pl-8">
+          Manchester United FC<span>2</span>
+        </h1>
+        <h1 class="bg-blue-600 h-10 pt-2 pl-8">
+          Everton FC<span>0</span>
+        </h1>
+      </div>
+      <div class="ml-8 mr-6 mt-4">
+        <span>NBA</span>
+        <span>Final . LA Won</span>
+        <h1 class="bg-blue-900 h-10 text-white pt-2 pl-8">
+          LA Galaxy<span>133</span>
+        </h1>
+        <h1 class="bg-green-600 h-10 pt-2 pl-8">
+          Golden State Warriors<span>130</span>
         </h1>
       </div>
       <div class="flex">
@@ -51,7 +71,7 @@ function Main() {
     <div class="w-1/2 border-r border-black-600">
       <div class="ml-2 mt-4 p-2">
         {/* <div class="max-w-sm rounded-lg bg-gray-200 overflow-hidden shadow-lg m-4 mr-20"> */}
-        <div class="flex">
+        <div class="flex sticky top-1 bg-white">
           <div class="flex-1 m-2">
             <form class="ml-3 flex">
               <div class="relative">
