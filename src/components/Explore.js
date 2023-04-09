@@ -2,6 +2,50 @@ import Aside from "./Aside";
 import WhoToFollow from "./WhoToFollow";
 import Policy from "./Policy";
 
+function NBAGames() {
+  return (
+    <div>
+      <h1 class="ml-8 mt-4 font-bold">What's happening</h1>
+      <div class="ml-8 mr-6 mt-4">
+        <span>KPL</span>
+        <span>Final . GOR Won</span>
+        <h1 class="bg-blue-900 h-10 text-white pt-2 pl-8">
+          AFC Leopards<span>1</span>
+        </h1>
+        <h1 class="bg-green-600 h-10 pt-2 pl-8">
+          Gor Mahia FC<span>4</span>
+        </h1>
+      </div>
+      <div class="ml-8 mr-6 mt-4">
+        <span>KPL</span>
+        <span>Final . Sofapaka Won</span>
+        <h1 class="bg-purple-300 h-10 pt-2 pl-8">
+          Sofapaka FC<span>2</span>
+        </h1>
+
+        <h1 class="bg-red-600 h-10 pt-2 pl-8">
+          Mathari United<span>0</span>
+        </h1>
+      </div>
+      <div class="flex">
+        <div class="flex-1 p-4">
+          <a href="kh.c">
+            <h2 class="px-4 ml-2 w-48 font-bold text-blue-400">Show more</h2>
+          </a>
+        </div>
+      </div>
+      <hr />
+      <div class="">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 ">
+          <g>
+            <path d="M12 1.75c-5.11 0-9.25 4.14-9.25 9.25 0 4.77 3.61 8.7 8.25 9.2v2.96l1.15-.17c1.88-.29 4.11-1.56 5.87-3.5 1.79-1.96 3.17-4.69 3.23-7.97.09-5.54-4.14-9.77-9.25-9.77zM13 14H9v-2h4v2zm2-4H9V8h6v2z"></path>
+          </g>
+        </svg>
+      </div>
+    </div>
+  );
+}
+
 function Main() {
   return (
     <div class="w-1/2 border-r border-black-600">
@@ -126,7 +170,7 @@ function Main() {
         <div class="flex">
           <div class="flex-1">
             <p class="px-4 ml-2 mt-3 w-48 text-xs text-gray-600">
-              1 . Trending
+              3 . Trending
             </p>
             <h2 class="px-4 ml-2 w-48 font-bold text-black">#Shaffie</h2>
             <p class="px-4 ml-2 mb-3 w-48 text-xs text-gray-600">
@@ -158,7 +202,7 @@ function Main() {
         <div class="flex">
           <div class="flex-1">
             <p class="px-4 ml-2 mt-3 w-48 text-xs text-gray-600">
-              3 . Rock . Trending
+              4 . Rock . Trending
             </p>
             <h2 class="px-4 ml-2 w-48 font-bold text-black">#Ferrari</h2>
             <p class="px-4 ml-2 mb-3 w-48 text-xs text-gray-600">
@@ -190,7 +234,7 @@ function Main() {
         <div class="flex">
           <div class="flex-1">
             <p class="px-4 ml-2 mt-3 w-48 text-xs text-gray-600">
-              4 . Auto Racing . Trending
+              5 . Auto Racing . Trending
             </p>
             <h2 class="px-4 ml-2 w-48 font-bold text-black">#vettel</h2>
             <p class="px-4 ml-2 mb-3 w-48 text-xs text-gray-600">
@@ -228,7 +272,7 @@ function Main() {
         </div>
       </div>
       <hr />
-      <h1 class="ml-8 mt-4 font-bold">What's happening</h1>
+      <NBAGames />
     </div>
   );
 }

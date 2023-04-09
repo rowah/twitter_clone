@@ -135,7 +135,7 @@ function Aside() {
             Profile
           </a>
           <a
-            href="/"
+            href="/home"
             class="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:text-black"
           >
             <svg

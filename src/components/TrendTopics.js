@@ -98,7 +98,7 @@ export default function TrendTopics() {
         <div class="flex">
           <div class="flex-1">
             <p class="px-4 ml-2 mt-3 w-48 text-xs text-gray-600">
-              1 . Trending
+              3 . Trending
             </p>
             <h2 class="px-4 ml-2 w-48 font-bold text-black">#Shaffie</h2>
             <p class="px-4 ml-2 mb-3 w-48 text-xs text-gray-600">
@@ -130,7 +130,7 @@ export default function TrendTopics() {
         <div class="flex">
           <div class="flex-1">
             <p class="px-4 ml-2 mt-3 w-48 text-xs text-gray-600">
-              3 . Rock . Trending
+              4 . Rock . Trending
             </p>
             <h2 class="px-4 ml-2 w-48 font-bold text-black">#Ferrari</h2>
             <p class="px-4 ml-2 mb-3 w-48 text-xs text-gray-600">
@@ -162,7 +162,7 @@ export default function TrendTopics() {
         <div class="flex">
           <div class="flex-1">
             <p class="px-4 ml-2 mt-3 w-48 text-xs text-gray-600">
-              4 . Auto Racing . Trending
+              5 . Auto Racing . Trending
             </p>
             <h2 class="px-4 ml-2 w-48 font-bold text-black">#vettel</h2>
             <p class="px-4 ml-2 mb-3 w-48 text-xs text-gray-600">
