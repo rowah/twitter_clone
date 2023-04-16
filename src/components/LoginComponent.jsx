@@ -1,8 +1,12 @@
 import React, { useState } from "react";
-import { LoginAPI, RegisterAPI } from "../api/AuthAPI";
+import { LoginAPI, GoogleSignInAPI } from "../api/AuthAPI";
 import { toast } from "react-toastify";
 export default function LoginComponent() {
   const [credentials, setCredentials] = useState({});
+  const googleLogIn = async () => {
+    let response = GoogleSignInAPI();
+    console.log(response);
+  };
   const login = async () => {
     try {
       const res = await LoginAPI(credentials.email, credentials.password);
@@ -10,7 +14,7 @@ export default function LoginComponent() {
       console.log(res);
     } catch (error) {
       console.log(error);
-      toast.success("Invalid email or password");
+      toast.error("Invalid email or password");
     }
   };
   return (
@@ -31,49 +35,40 @@ export default function LoginComponent() {
               Sign in to Twitter
             </h1>
 
-            <button class="flex border w-full rounded-full space-x-4 py-1 hover:bg-gray-200">
-              <img
-                className="rounded-full w-6 h-6 mt-1 ml-2"
-                src="https://lh3.googleusercontent.com/ogw/AOLn63GpmIelGISx04vJonBtF-VpWjZzeAB3LcNvqUMSgQ=s32-c-mo"
-                alt="Rowa's profile image"
-              />
-              <div class="nsm7Bb-HzV7m-LgbsSe-BPrWId">
-                <div className="text-xs">Sign in as Rowah</div>
-                <div class="K4efff">
-                  <div className="text-xs text-gray-400">jrowah@gmail.com</div>
-                </div>
+            <button
+              onClick={googleLogIn}
+              className="flex border w-full rounded-full space-x-2 py-1 hover:bg-gray-200"
+            >
+              <div className="ml-10">
+                <svg
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 48 48"
+                  className="mt-1 w-4 mr-1"
+                >
+                  <g>
+                    <path
+                      fill="#EA4335"
+                      d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"
+                    ></path>
+                    <path
+                      fill="#4285F4"
+                      d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"
+                    ></path>
+                    <path
+                      fill="#FBBC05"
+                      d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"
+                    ></path>
+                    <path
+                      fill="#34A853"
+                      d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"
+                    ></path>
+                    <path fill="none" d="M0 0h48v48H0z"></path>
+                  </g>
+                </svg>
               </div>
-              {/* <div class="w-4"> */}
-              <svg
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 48 48"
-                className="mt-2 w-4 mr-1"
-              >
-                <g>
-                  <path
-                    fill="#EA4335"
-                    d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"
-                  ></path>
-                  <path
-                    fill="#4285F4"
-                    d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"
-                  ></path>
-                  <path
-                    fill="#FBBC05"
-                    d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"
-                  ></path>
-                  <path
-                    fill="#34A853"
-                    d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"
-                  ></path>
-                  <path fill="none" d="M0 0h48v48H0z"></path>
-                </g>
-              </svg>
-              {/* </div> */}
-              <script nonce="">
-                gis.provider.button.bootstrap('CiIKFjg4OUFRN1E3TFhFQ3dUbHdYbit3WFESBHdhcm4aAmVuGsoBCkc0OTYyNTA1MjA0MS1rZ3QwaGdoZjQ0NWxtY21oaWp2NDZiNzE1bTJtcGJjdC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbRITaHR0cHM6Ly90d2l0dGVyLmNvbRoLdHdpdHRlci5jb20qG2h0dHBzOi8vdHdpdHRlci5jb20vcHJpdmFjeTIXaHR0cHM6Ly90d2l0dGVyLmNvbS90b3M6J2FuZHJvaWRfcGxheWNvbnNvbGVfc2VydmljZUB0d2l0dGVyLmNvbSIRZ3NpXzc3Njk0NF8zMzQwMjIyyAEIARABGAQgrAIoAjACOAFCsgEKG2NhbWlsYW1lbnNpcmUyMDAwQGdtYWlsLmNvbRIVMTE2ODE0Mjk0Njg4MzUwNzYxMTQyGg5DYW1pbGEgTWVuc2lyZSIGQ2FtaWxhKgdNZW5zaXJlMllodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BR05teXhiQm0tOHU3aTJmVVhETVJzclFBUzc4cW9xZmwwQWtsTUtjWUV5YlM5az1zOTYtYzgBSAFQAg\x3d\x3d');
-              </script>
+
+              <div className="text-s">Sign in with Google</div>
             </button>
 
             {/* <GoogleButton
@@ -88,7 +83,7 @@ export default function LoginComponent() {
 
             <div className="inline-flex items-center justify-center w-full">
               <hr className="w-64 h-px my-8 bg-gray-300 border-0 dark:bg-gray-700" />
-              <span class="absolute px-3 font-medium text-gray-900 -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-gray-900">
+              <span className="absolute px-3 font-medium text-gray-900 -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-gray-900">
                 or
               </span>
             </div>
