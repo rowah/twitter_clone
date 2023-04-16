@@ -1,11 +1,17 @@
 import React, { useState } from "react";
 import { LoginAPI, RegisterAPI } from "../api/AuthAPI";
-import GoogleButton from "react-google-button";
+import { toast } from "react-toastify";
 export default function LoginComponent() {
   const [credentials, setCredentials] = useState({});
-  const login = () => {
-    const res = LoginAPI(credentials.email, credentials.password);
-    console.log(res);
+  const login = async () => {
+    try {
+      const res = await LoginAPI(credentials.email, credentials.password);
+      toast.success("Signed into Twitter");
+      console.log(res);
+    } catch (error) {
+      console.log(error);
+      toast.success("Invalid email or password");
+    }
   };
   return (
     <div className="bg-gray-400 ">
