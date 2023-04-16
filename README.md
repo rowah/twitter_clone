@@ -1,4 +1,4 @@
-## twitter_ui_clone
+## twitter_clone
 
 ## This is a complete Twitter application clone.
 

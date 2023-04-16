@@ -25,3 +25,12 @@ export const GoogleSignInAPI = () => {
     return error;
   }
 };
+
+export const SignupAPI = (email, password) => {
+  try {
+    const response = createUserWithEmailAndPassword(auth, email, password);
+    return response;
+  } catch (error) {
+    return error;
+  }
+};

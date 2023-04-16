@@ -1,8 +1,10 @@
-import React, { useState } from "react";
-import { LoginAPI, GoogleSignInAPI } from "../api/AuthAPI";
+import React from "react";
+import { SignupAPI, GoogleSignInAPI } from "../api/AuthAPI";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
-export default function LoginComponent() {
+import { useState } from "react";
+
+export default function SignupComponent() {
   let navigate = useNavigate();
   const [credentials, setCredentials] = useState({});
   const googleLogIn = async () => {
@@ -11,18 +13,18 @@ export default function LoginComponent() {
   };
   const login = async () => {
     try {
-      const res = await LoginAPI(credentials.email, credentials.password);
-      toast.success("Signed into Twitter");
+      const res = await SignupAPI(credentials.email, credentials.password);
+      toast.success("Account created successfully");
       console.log(res);
     } catch (error) {
       console.log(error);
-      toast.error("Invalid email or password");
+      toast.error("Account could not be created");
     }
   };
   return (
     <div className="bg-gray-400 ">
       <div className="flex min-h-screen items-center justify-center">
-        <div className="min-h-1/2 bg-white rounded-2xl">
+        <div className="min-h-1/2 bg-white rounded-2xl ">
           <div className="mx-4 sm:mx-24 md:mx-34 lg:mx-56 mx-auto  flex items-center space-y-4 py-16 font-semibold text-gray-500 flex-col">
             <svg
               viewBox="0 0 24 24"
@@ -34,13 +36,10 @@ export default function LoginComponent() {
               </g>
             </svg>
             <h1 className="text-black text-2xl font-sans">
-              Sign in to Twitter
+              Join Twitter today
             </h1>
 
-            <button
-              onClick={googleLogIn}
-              className="flex border w-full rounded-full space-x-2 py-1 hover:bg-gray-200"
-            >
+            <button className="flex border w-full rounded-full space-x-2 py-1 hover:bg-gray-200">
               <div className="ml-10">
                 <svg
                   version="1.1"
@@ -70,7 +69,7 @@ export default function LoginComponent() {
                 </svg>
               </div>
 
-              <div className="text-s">Sign in with Google</div>
+              <div className="text-s">Sign up with Google</div>
             </button>
 
             <button className="flex border w-full rounded-full space-x-2 py-1 hover:bg-gray-200">
@@ -86,7 +85,7 @@ export default function LoginComponent() {
                 </svg>
               </div>
 
-              <div className="text-s text-black">Sign in with Apple</div>
+              <div className="text-s text-black">Sign up with Apple</div>
             </button>
 
             <div className="inline-flex items-center justify-center w-full">
@@ -95,47 +94,37 @@ export default function LoginComponent() {
                 or
               </span>
             </div>
-            <input
-              onChange={(event) =>
-                setCredentials({ ...credentials, email: event.target.value })
-              }
-              className="w-full p-2 bg-white rounded-md  border border-gray-300 focus:border-blue-300"
-              placeholder="Phone, email, username"
-              type="email"
-              name="correo"
-              id=""
-            />
-            <input
-              onChange={(event) =>
-                setCredentials({ ...credentials, password: event.target.value })
-              }
-              className="w-full p-2 bg-white rounded-md border border-gray-300 "
-              placeholder="password"
-              type="password"
-              name="correo"
-              id=""
-            />
-            <button
-              onClick={login}
-              className="w-full bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-full"
-            >
-              Sign In
+
+            <button className="w-full bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-full">
+              Create Account
             </button>
-            <button
-              onClick={login}
-              className="w-full border border-gray-400 hover:bg-gray-200 text-black font-bold py-2 px-4 rounded-full"
-            >
-              Forgot Password?
-            </button>
+            <div>
+              <p className="text-xs">
+                By signing up, you agree to the{" "}
+                <a href="" className="font-semibold text-sky-500">
+                  Terms of Service
+                </a>{" "}
+                <br /> and{" "}
+                <a href="" className="font-semibold text-sky-500">
+                  Privacy Policy
+                </a>
+                , including{" "}
+                <a href="" className="font-semibold text-sky-500">
+                  Cookie Use
+                </a>
+                .
+              </p>
+            </div>
+
             <p>
-              Don't have an account?{" "}
+              Already have an account?{" "}
               <span
                 className="font-semibold text-sky-500 cursor-pointer"
                 onClick={() => {
-                  navigate("/signup");
+                  navigate("/");
                 }}
               >
-                Sign Up
+                Log in
               </span>{" "}
             </p>
           </div>
