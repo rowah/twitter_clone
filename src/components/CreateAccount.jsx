@@ -15,6 +15,7 @@ export default function CreateAccount() {
     try {
       const res = await SignupAPI(credentials.email, credentials.password);
       toast.success("Account created successfully");
+      navigate("/home");
       console.log(res);
     } catch (error) {
       console.log(error);

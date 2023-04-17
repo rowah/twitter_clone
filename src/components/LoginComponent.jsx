@@ -13,6 +13,7 @@ export default function LoginComponent() {
     try {
       const res = await LoginAPI(credentials.email, credentials.password);
       toast.success("Signed into Twitter");
+      navigate("/home");
       console.log(res);
     } catch (error) {
       console.log(error);
