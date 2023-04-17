@@ -1,5 +1,5 @@
 import React from "react";
-import Aside from "./common/Aside";
+import Aside from "../common/sidebar/Aside";
 
 export default function HomeComponent() {
   return (
