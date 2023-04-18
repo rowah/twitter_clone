@@ -158,14 +158,14 @@ function MiddleNav() {
         </div>
       </div>
       <div class="mt-3 flex text-lg h-14">
-        <div className="w-1/2 hover:bg-gray-200">
-          <span class="dark:hover:bg-gray-800 dark:hover:text-gray-200 border-b-4 border-blue-500 ml-20">
+        <div className="w-1/2 hover:bg-gray-200 pt-3">
+          <span class="dark:hover:bg-gray-800 dark:hover:text-gray-200 border-b-4 border-blue-500 ml-20 pb-4">
             <a href="twts.com">For you</a>
           </span>
         </div>
 
-        <div className="w-1/2 hover:bg-gray-200">
-          <span class="dark:hover:bg-gray-800 dark:hover:text-gray-200 border-b-indigo-500 ml-20">
+        <div className="w-1/2 hover:bg-gray-200 pt-3">
+          <span class="dark:hover:bg-gray-800 dark:hover:text-gray-200 border-b-indigo-500 ml-20 pb-4">
             <a href="twts.com">Following</a>
           </span>
         </div>
