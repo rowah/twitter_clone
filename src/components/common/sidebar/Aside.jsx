@@ -1,7 +1,13 @@
 import { RiHome7Fill } from "react-icons/ri";
 import { HiOutlineBell } from "react-icons/hi";
 import { BsThreeDots } from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
+
 function Aside() {
+  const navigate = useNavigate();
+  const goToRoute = (route) => {
+    useNavigate(route);
+  };
   return (
     <aside className="flex flex-col w-1/4 h-screen px-2 py-6 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700 sticky top-0 z-50">
       <div className="w-full text-black h-12 h-auto">
@@ -16,11 +22,12 @@ function Aside() {
         </svg>
 
         <nav className="mt-5 px-2">
+          {/* use navigate and not the links in the future */}
           <a
             href="/home"
             className="group flex items-center px-2 py-2 text-base leading-6 font-semibold rounded-full hover:bg-gray-300 focus:bg-gray-300  text-black"
           >
-            <RiHome7Fill size={25} />
+            <RiHome7Fill size={25} onClick={goToRoute} />
             <span className="ml-3 text-xl">Home</span>
           </a>
           <a
