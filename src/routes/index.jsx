@@ -4,6 +4,7 @@ import Signup from "../pages/SignUp";
 import Create from "../pages/Create";
 import Home from "../pages/Home";
 import ProfileComponent from "../components/layouts/ProfileComponent";
+import ExploreComponent from "../components/layouts/ExploreComponent";
 
 export const router = createBrowserRouter([
   {
@@ -25,5 +26,9 @@ export const router = createBrowserRouter([
   {
     path: "/profile",
     element: <ProfileComponent />,
+  },
+  {
+    path: "/explore",
+    element: <ExploreComponent />,
   },
 ]);
