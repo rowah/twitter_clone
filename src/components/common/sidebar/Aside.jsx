@@ -1,4 +1,4 @@
-import { RiHome7Fill } from "react-icons/ri";
+import { BiHomeCircle } from "react-icons/bi";
 import { HiOutlineBell } from "react-icons/hi";
 import { BsThreeDots } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
@@ -27,7 +27,7 @@ function Aside() {
             href="/home"
             className="group flex items-center px-2 py-2 text-base leading-6 font-semibold rounded-full hover:bg-gray-300 focus:bg-gray-300  text-black"
           >
-            <RiHome7Fill size={25} onClick={goToRoute} />
+            <BiHomeCircle size={25} onClick={goToRoute} />
             <span className="ml-3 text-xl">Home</span>
           </a>
           <a
@@ -157,10 +157,10 @@ function Aside() {
               </div>
               <div className="ml-3">
                 <p className="text-base leading-6 font-medium text-black">
-                  User Name
+                  Jay Rowah
                 </p>
                 <p className="text-sm leading-5 font-medium text-gray-400 group-hover:text-gray-300 transition ease-in-out duration-150">
-                  @username
+                  @JRowah
                 </p>
               </div>
               <div className="ml-20">
