@@ -1,5 +1,5 @@
-import NotificationsComponent from "../components/layouts/NotificationsComponent";
 import React from "react";
+import NotificationsComponent from "../components/layouts/NotificationsComponent";
 
 export default function Notifications() {
   return (

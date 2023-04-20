@@ -1,32 +1,32 @@
 export default function Tweet() {
   return (
     <section>
-      <div class="hover:bg-gray-100">
-        <div class="flex ml-4">
-          <svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5">
+      <div className="hover:bg-gray-100">
+        <div className="flex ml-4">
+          <svg viewBox="0 0 24 24" aria-hidden="true" className="h-5 w-5">
             <g>
               <path d="M7 4.5C7 3.12 8.12 2 9.5 2h5C15.88 2 17 3.12 17 4.5v5.26L20.12 16H13v5l-1 2-1-2v-5H3.88L7 9.76V4.5z"></path>
             </g>
           </svg>
 
-          <div class="ml-3">
+          <div className="ml-3">
             <div>
-              <span class="">Pinned Tweet</span>
+              <span className="">Pinned Tweet</span>
             </div>
           </div>
         </div>
-        <div class="space-y-3 ">
-          <a href="home.com" class="flex items-center px-4 -mx-2">
+        <div className="space-y-3 ">
+          <a href="home.com" className="flex items-center px-4 -mx-2">
             <img
-              class="object-cover mx-2 rounded-full h-11 w-11 mt-0"
+              className="object-cover mx-2 rounded-full h-11 w-11 mt-0"
               src="https://pbs.twimg.com/profile_images/1504385195037843457/p5kNTiBq_400x400.jpg"
               alt="avatar"
             />
             <div>
-              <span class="mx-2 font-medium text-gray-800 dark:text-gray-200">
+              <span className="mx-2 font-medium text-gray-800 dark:text-gray-200">
                 Jay Rowah
               </span>
-              <span class="mx-2 font-medium text-gray-500 dark:text-gray-200">
+              <span className="mx-2 font-medium text-gray-500 dark:text-gray-200">
                 @JRowah
               </span>
               <span>Oct 25, 2022</span>
@@ -34,7 +34,7 @@ export default function Tweet() {
           </a>
         </div>
         <a href="twee.co">
-          <p class="ml-20">
+          <p className="ml-20">
             Hi, I'm James Rowa, a software developer (MERN Stack) from Nairobi,
             Kenya. I'm currently open to offers and I'm targeting Javascript,
             MongoDB, React, & Node opportunities. I'd appreciate a retweet.
@@ -42,23 +42,23 @@ export default function Tweet() {
             TailwindCSS to keep my front-end dev skills on fleek.
           </p>
         </a>
-        <button class="bg-transparent border border-black-800 ml-6 h-10 w-5/6 text-black font-bold py-2 px-4 rounded-full w-40 mt-3 ">
+        <button className="bg-transparent border border-black-800 ml-6 h-10 w-5/6 text-black font-bold py-2 px-4 rounded-full w-40 mt-3 ">
           Promote
         </button>
-        <div class="flex ml-20">
-          <div class="w-full">
-            <div class="flex items-center">
-              <div class="flex-1 text-center">
+        <div className="flex ml-20">
+          <div className="w-full">
+            <div className="flex items-center">
+              <div className="flex-1 text-center">
                 <a
                   href="ho.co"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-6 w-6"
+                    className="text-center h-6 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -67,17 +67,17 @@ export default function Tweet() {
                 </a>
               </div>
 
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="ho.co"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -86,17 +86,17 @@ export default function Tweet() {
                 </a>
               </div>
 
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -105,17 +105,17 @@ export default function Tweet() {
                 </a>
               </div>
 
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -123,17 +123,17 @@ export default function Tweet() {
                   </svg>
                 </a>
               </div>
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -141,17 +141,17 @@ export default function Tweet() {
                   </svg>
                 </a>
               </div>
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -162,21 +162,21 @@ export default function Tweet() {
             </div>
           </div>
         </div>
-        <hr class="mt-2" />
+        <hr className="mt-2" />
       </div>
-      <div class="hover:bg-gray-100">
-        <div class="space-y-3 ">
-          <a href="home.com" class="flex items-center px-4 -mx-2">
+      <div className="hover:bg-gray-100">
+        <div className="space-y-3 ">
+          <a href="home.com" className="flex items-center px-4 -mx-2">
             <img
-              class="object-cover mx-2 rounded-full h-11 w-11 mt-3"
+              className="object-cover mx-2 rounded-full h-11 w-11 mt-3"
               src="https://pbs.twimg.com/profile_images/1504385195037843457/p5kNTiBq_400x400.jpg"
               alt="avatar"
             />
             <div>
-              <span class="mx-2 font-medium text-gray-800 dark:text-gray-200">
+              <span className="mx-2 font-medium text-gray-800 dark:text-gray-200">
                 Jay Rowah
               </span>
-              <span class="mx-2 font-medium text-gray-500 dark:text-gray-200">
+              <span className="mx-2 font-medium text-gray-500 dark:text-gray-200">
                 @JRowah
               </span>
               <span>Oct 25, 2022</span>
@@ -184,36 +184,37 @@ export default function Tweet() {
           </a>
         </div>
         <a href="twee.co">
-          <p class="ml-20">
+          <p className="ml-20">
             Day 07 of the challenge{" "}
-            <span class="text-blue-400">#100DaysOfCode</span>I was wondering
-            what I can do with <span class="text-blue-400">#tailwindcss</span>,
-            so just started building Twitter UI using Tailwind and so far it
-            looks so promising. I will post my code after completion. [07/100]
-            <span class="text-blue-400"> #WomenWhoCode #CodeNewbie</span>
+            <span className="text-blue-400">#100DaysOfCode</span>I was wondering
+            what I can do with{" "}
+            <span className="text-blue-400">#tailwindcss</span>, so just started
+            building Twitter UI using Tailwind and so far it looks so promising.
+            I will post my code after completion. [07/100]
+            <span className="text-blue-400"> #WomenWhoCode #CodeNewbie</span>
           </p>
-          <div class="md:flex-shrink pr-6 pt-3">
+          <div className="md:flex-shrink pr-6 pt-3">
             <img
-              class="rounded-lg w-4/5 h-64 ml-20"
+              className="rounded-lg w-4/5 h-64 ml-20"
               src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=448&q=80"
               alt="Woman paying for a purchase"
             />
           </div>
         </a>
-        <div class="flex ml-20">
-          <div class="w-full">
-            <div class="flex items-center">
-              <div class="flex-1 text-center">
+        <div className="flex ml-20">
+          <div className="w-full">
+            <div className="flex items-center">
+              <div className="flex-1 text-center">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-6 w-6"
+                    className="text-center h-6 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -222,17 +223,17 @@ export default function Tweet() {
                 </a>
               </div>
 
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -241,17 +242,17 @@ export default function Tweet() {
                 </a>
               </div>
 
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -260,17 +261,17 @@ export default function Tweet() {
                 </a>
               </div>
 
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -278,17 +279,17 @@ export default function Tweet() {
                   </svg>
                 </a>
               </div>
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -296,17 +297,17 @@ export default function Tweet() {
                   </svg>
                 </a>
               </div>
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -317,21 +318,21 @@ export default function Tweet() {
             </div>
           </div>
         </div>
-        <hr class="mt-2" />
+        <hr className="mt-2" />
       </div>
-      <div class="hover:bg-gray-100">
-        <div class="space-y-3 ">
-          <a href="home.com" class="flex items-center px-4 -mx-2">
+      <div className="hover:bg-gray-100">
+        <div className="space-y-3 ">
+          <a href="home.com" className="flex items-center px-4 -mx-2">
             <img
-              class="object-cover mx-2 rounded-full h-11 w-11 mt-3"
+              className="object-cover mx-2 rounded-full h-11 w-11 mt-3"
               src="https://pbs.twimg.com/profile_images/1504385195037843457/p5kNTiBq_400x400.jpg"
               alt="avatar"
             />
             <div>
-              <span class="mx-2 font-medium text-gray-800 dark:text-gray-200">
+              <span className="mx-2 font-medium text-gray-800 dark:text-gray-200">
                 Jay Rowah
               </span>
-              <span class="mx-2 font-medium text-gray-500 dark:text-gray-200">
+              <span className="mx-2 font-medium text-gray-500 dark:text-gray-200">
                 @JRowah
               </span>
               <span>Oct 25, 2022</span>
@@ -339,7 +340,7 @@ export default function Tweet() {
           </a>
         </div>
         <a href="twee.co">
-          <p class="ml-20">
+          <p className="ml-20">
             Hi, I'm James Rowa, a software developer (MERN Stack) from Nairobi,
             Kenya. I'm currently open to offers and I'm targeting Javascript,
             MongoDB, React, & Node opportunities. I'd appreciate a retweet.
@@ -347,20 +348,20 @@ export default function Tweet() {
             TailwindCSS to keep my front-end dev skills on fleek.
           </p>
         </a>
-        <div class="flex ml-20">
-          <div class="w-full">
-            <div class="flex items-center">
-              <div class="flex-1 text-center">
+        <div className="flex ml-20">
+          <div className="w-full">
+            <div className="flex items-center">
+              <div className="flex-1 text-center">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-6 w-6"
+                    className="text-center h-6 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -369,17 +370,17 @@ export default function Tweet() {
                 </a>
               </div>
 
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -388,17 +389,17 @@ export default function Tweet() {
                 </a>
               </div>
 
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -407,17 +408,17 @@ export default function Tweet() {
                 </a>
               </div>
 
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -425,17 +426,17 @@ export default function Tweet() {
                   </svg>
                 </a>
               </div>
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -443,17 +444,17 @@ export default function Tweet() {
                   </svg>
                 </a>
               </div>
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -464,21 +465,21 @@ export default function Tweet() {
             </div>
           </div>
         </div>
-        <hr class="mt-2" />
+        <hr className="mt-2" />
       </div>
-      <div class="hover:bg-gray-100">
-        <div class="space-y-3 ">
-          <a href="home.com" class="flex items-center px-4 -mx-2">
+      <div className="hover:bg-gray-100">
+        <div className="space-y-3 ">
+          <a href="home.com" className="flex items-center px-4 -mx-2">
             <img
-              class="object-cover mx-2 rounded-full h-11 w-11 mt-3"
+              className="object-cover mx-2 rounded-full h-11 w-11 mt-3"
               src="https://pbs.twimg.com/profile_images/1504385195037843457/p5kNTiBq_400x400.jpg"
               alt="avatar"
             />
             <div>
-              <span class="mx-2 font-medium text-gray-800 dark:text-gray-200">
+              <span className="mx-2 font-medium text-gray-800 dark:text-gray-200">
                 Jay Rowah
               </span>
-              <span class="mx-2 font-medium text-gray-500 dark:text-gray-200">
+              <span className="mx-2 font-medium text-gray-500 dark:text-gray-200">
                 @JRowah
               </span>
               <span>Oct 25, 2022</span>
@@ -486,33 +487,33 @@ export default function Tweet() {
           </a>
         </div>
         <a href="twee.co">
-          <p class="ml-20">
+          <p className="ml-20">
             The last few weeks I have dived deep into backend with Elixir I was
             afraid I'd forget front-end basics. I am here reminding myself that
             while building a twitter UI clone with React and Tailwind.
           </p>
-          <div class="md:flex-shrink pr-6 pt-3">
+          <div className="md:flex-shrink pr-6 pt-3">
             <img
-              class="rounded-lg w-4/5 h-64 ml-20"
+              className="rounded-lg w-4/5 h-64 ml-20"
               src="https://pbs.twimg.com/media/FsyVikWWYAMHCMa?format=jpg&name=large"
               alt="Woman paying for a purchase"
             />
           </div>
         </a>
-        <div class="flex ml-20">
-          <div class="w-full">
-            <div class="flex items-center">
-              <div class="flex-1 text-center">
+        <div className="flex ml-20">
+          <div className="w-full">
+            <div className="flex items-center">
+              <div className="flex-1 text-center">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-6 w-6"
+                    className="text-center h-6 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -521,17 +522,17 @@ export default function Tweet() {
                 </a>
               </div>
 
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -540,17 +541,17 @@ export default function Tweet() {
                 </a>
               </div>
 
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -559,17 +560,17 @@ export default function Tweet() {
                 </a>
               </div>
 
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -577,17 +578,17 @@ export default function Tweet() {
                   </svg>
                 </a>
               </div>
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -595,17 +596,17 @@ export default function Tweet() {
                   </svg>
                 </a>
               </div>
-              <div class="flex-1 text-center py-2 m-2">
+              <div className="flex-1 text-center py-2 m-2">
                 <a
                   href="/"
-                  class="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
+                  className="w-12 mt-1 group flex items-center text-gray-500 px-3 py-2 text-base leading-6 font-medium rounded-full hover:bg-blue-800 hover:text-blue-300"
                 >
                   <svg
-                    class="text-center h-7 w-6"
+                    className="text-center h-7 w-6"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -616,7 +617,7 @@ export default function Tweet() {
             </div>
           </div>
         </div>
-        <hr class="mt-2" />
+        <hr className="mt-2" />
       </div>
     </section>
   );

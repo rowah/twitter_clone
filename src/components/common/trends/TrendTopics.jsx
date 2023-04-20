@@ -1,26 +1,26 @@
 import Policy from "../policies/Policy";
 export default function TrendTopics() {
   return (
-    <div class="sticky top-20 z-50">
-      <div class="ml-6 mt-6 p-3 bg-gray-200 rounded-lg ">
-        {/* <div class="max-w-sm rounded-lg bg-gray-200 overflow-hidden shadow-lg m-4 mr-20"> */}
-        <div class="flex">
-          <div class="flex-1 m-2">
-            <h2 class="px-4 py-2 text-xl w-48 font-semibold text-black">
+    <div className="sticky top-20 z-50">
+      <div className="ml-6 mt-6 p-3 bg-gray-200 rounded-lg ">
+        {/* <div className="max-w-sm rounded-lg bg-gray-200 overflow-hidden shadow-lg m-4 mr-20"> */}
+        <div className="flex">
+          <div className="flex-1 m-2">
+            <h2 className="px-4 py-2 text-xl w-48 font-semibold text-black">
               Kenya trends
             </h2>
           </div>
-          <div class="flex-1 px-4 py-2 m-2">
+          <div className="flex-1 px-4 py-2 m-2">
             <a
               href="/"
-              class=" text-2xl rounded-full text-black hover:bg-blue-800 hover:text-blue-300 float-right"
+              className=" text-2xl rounded-full text-black hover:bg-blue-800 hover:text-blue-300 float-right"
             >
               <svg
-                class="m-2 h-6 w-6"
+                className="m-2 h-6 w-6"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -32,27 +32,27 @@ export default function TrendTopics() {
         </div>
 
         {/* <!--first trending tweet--> */}
-        <div class="flex">
-          <div class="flex-1">
-            <p class="px-4 ml-2 mt-3 w-48 text-xs text-gray-600">
+        <div className="flex">
+          <div className="flex-1">
+            <p className="px-4 ml-2 mt-3 w-48 text-xs text-gray-600">
               1 . Trending
             </p>
-            <h2 class="px-4 ml-2 w-48 font-bold text-black">#Kilimani</h2>
-            <p class="px-4 ml-2 mb-3 w-48 text-xs text-gray-600">
+            <h2 className="px-4 ml-2 w-48 font-bold text-black">#Kilimani</h2>
+            <p className="px-4 ml-2 mb-3 w-48 text-xs text-gray-600">
               5,466 Tweets
             </p>
           </div>
-          <div class="flex-1 px-4 py-2 m-2">
+          <div className="flex-1 px-4 py-2 m-2">
             <a
               href="/"
-              class=" text-2xl rounded-full text-gray-400 hover:bg-blue-800 hover:text-blue-300 float-right"
+              className=" text-2xl rounded-full text-gray-400 hover:bg-blue-800 hover:text-blue-300 float-right"
             >
               <svg
-                class="m-2 h-5 w-5"
+                className="m-2 h-5 w-5"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -64,27 +64,27 @@ export default function TrendTopics() {
 
         {/* <!--second trending tweet--> */}
 
-        <div class="flex">
-          <div class="flex-1">
-            <p class="px-4 ml-2 mt-3 w-48 text-xs text-gray-600">
+        <div className="flex">
+          <div className="flex-1">
+            <p className="px-4 ml-2 mt-3 w-48 text-xs text-gray-600">
               2 . Politics . Trending
             </p>
-            <h2 class="px-4 ml-2 w-48 font-bold text-black">#DPGachagua</h2>
-            <p class="px-4 ml-2 mb-3 w-48 text-xs text-gray-600">
+            <h2 className="px-4 ml-2 w-48 font-bold text-black">#DPGachagua</h2>
+            <p className="px-4 ml-2 mb-3 w-48 text-xs text-gray-600">
               8,464 Tweets
             </p>
           </div>
-          <div class="flex-1 px-4 py-2 m-2">
+          <div className="flex-1 px-4 py-2 m-2">
             <a
               href="/"
-              class=" text-2xl rounded-full text-gray-400 hover:bg-blue-800 hover:text-blue-300 float-right"
+              className=" text-2xl rounded-full text-gray-400 hover:bg-blue-800 hover:text-blue-300 float-right"
             >
               <svg
-                class="m-2 h-5 w-5"
+                className="m-2 h-5 w-5"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -94,27 +94,27 @@ export default function TrendTopics() {
           </div>
         </div>
 
-        <div class="flex">
-          <div class="flex-1">
-            <p class="px-4 ml-2 mt-3 w-48 text-xs text-gray-600">
+        <div className="flex">
+          <div className="flex-1">
+            <p className="px-4 ml-2 mt-3 w-48 text-xs text-gray-600">
               3 . Trending
             </p>
-            <h2 class="px-4 ml-2 w-48 font-bold text-black">#Shaffie</h2>
-            <p class="px-4 ml-2 mb-3 w-48 text-xs text-gray-600">
+            <h2 className="px-4 ml-2 w-48 font-bold text-black">#Shaffie</h2>
+            <p className="px-4 ml-2 mb-3 w-48 text-xs text-gray-600">
               5,466 Tweets
             </p>
           </div>
-          <div class="flex-1 px-4 py-2 m-2">
+          <div className="flex-1 px-4 py-2 m-2">
             <a
               href="/"
-              class=" text-2xl rounded-full text-gray-400 hover:bg-blue-800 hover:text-blue-300 float-right"
+              className=" text-2xl rounded-full text-gray-400 hover:bg-blue-800 hover:text-blue-300 float-right"
             >
               <svg
-                class="m-2 h-5 w-5"
+                className="m-2 h-5 w-5"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -126,27 +126,27 @@ export default function TrendTopics() {
 
         {/* <!--third trending tweet--> */}
 
-        <div class="flex">
-          <div class="flex-1">
-            <p class="px-4 ml-2 mt-3 w-48 text-xs text-gray-600">
+        <div className="flex">
+          <div className="flex-1">
+            <p className="px-4 ml-2 mt-3 w-48 text-xs text-gray-600">
               4 . Rock . Trending
             </p>
-            <h2 class="px-4 ml-2 w-48 font-bold text-black">#Ferrari</h2>
-            <p class="px-4 ml-2 mb-3 w-48 text-xs text-gray-600">
+            <h2 className="px-4 ml-2 w-48 font-bold text-black">#Ferrari</h2>
+            <p className="px-4 ml-2 mb-3 w-48 text-xs text-gray-600">
               5,586 Tweets
             </p>
           </div>
-          <div class="flex-1 px-4 py-2 m-2">
+          <div className="flex-1 px-4 py-2 m-2">
             <a
               href="/"
-              class=" text-2xl rounded-full text-gray-400 hover:bg-blue-800 hover:text-blue-300 float-right"
+              className=" text-2xl rounded-full text-gray-400 hover:bg-blue-800 hover:text-blue-300 float-right"
             >
               <svg
-                class="m-2 h-5 w-5"
+                className="m-2 h-5 w-5"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -158,27 +158,27 @@ export default function TrendTopics() {
 
         {/* <!--forth trending tweet--> */}
 
-        <div class="flex">
-          <div class="flex-1">
-            <p class="px-4 ml-2 mt-3 w-48 text-xs text-gray-600">
+        <div className="flex">
+          <div className="flex-1">
+            <p className="px-4 ml-2 mt-3 w-48 text-xs text-gray-600">
               5 . Auto Racing . Trending
             </p>
-            <h2 class="px-4 ml-2 w-48 font-bold text-black">#vettel</h2>
-            <p class="px-4 ml-2 mb-3 w-48 text-xs text-gray-600">
+            <h2 className="px-4 ml-2 w-48 font-bold text-black">#vettel</h2>
+            <p className="px-4 ml-2 mb-3 w-48 text-xs text-gray-600">
               9,416 Tweets
             </p>
           </div>
-          <div class="flex-1 px-4 py-2 m-2">
+          <div className="flex-1 px-4 py-2 m-2">
             <a
               href="/"
-              class=" text-2xl rounded-full text-gray-400 hover:bg-blue-800 hover:text-blue-300 float-right"
+              className=" text-2xl rounded-full text-gray-400 hover:bg-blue-800 hover:text-blue-300 float-right"
             >
               <svg
-                class="m-2 h-5 w-5"
+                className="m-2 h-5 w-5"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -190,10 +190,12 @@ export default function TrendTopics() {
 
         {/* <!--show more--> */}
 
-        <div class="flex">
-          <div class="flex-1 p-4">
+        <div className="flex">
+          <div className="flex-1 p-4">
             <a href="kh.c">
-              <h2 class="px-4 ml-2 w-48 font-bold text-blue-400">Show more</h2>
+              <h2 className="px-4 ml-2 w-48 font-bold text-blue-400">
+                Show more
+              </h2>
             </a>
           </div>
         </div>
