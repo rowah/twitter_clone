@@ -1,9 +1,12 @@
+import React, { useState } from "react";
 import { BiHomeCircle } from "react-icons/bi";
 import { HiOutlineBell } from "react-icons/hi";
 import { BsThreeDots } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
+import TweetModalComponent from "../Modal";
 
 function Aside() {
+  const [modalOpen, setModalOpen] = useState(false);
   const navigate = useNavigate();
   const goToRoute = (route) => {
     useNavigate(route);
@@ -140,9 +143,16 @@ function Aside() {
             <span className="text-xl">More</span>
           </a>
 
-          <button className="bg-blue-400 w-48 mt-5 hover:bg-blue-600 text-black font-bold py-2 px-4 rounded-full">
+          <button
+            onClick={() => setModalOpen(true)}
+            className="bg-blue-400 w-48 mt-5 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full"
+          >
             Tweet
           </button>
+          <TweetModalComponent
+            modalOpen={modalOpen}
+            setModalOpen={setModalOpen}
+          />
         </nav>
 
         <div className="flex-shrink-0 flex hover:bg-blue-00 rounded-full p-4 mt-12 mr-2">
