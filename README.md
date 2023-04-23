@@ -6,7 +6,7 @@ This project solves no problems but is one that I use to keep my full-stack skil
 
 [This will be](https://product-expiry-tracker.cyclic.app/) the link to the project once I host it, probably on Netlify.
 
-[![Alt text](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+![Twitter logo](https://help.twitter.com/content/dam/help-twitter/brand/logo.png)
 
 ## How It's Made:
 
