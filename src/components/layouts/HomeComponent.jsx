@@ -16,7 +16,7 @@ function CreateTweet() {
       </div>
       <div className="flex-1 px-2 pt-2 mt-2">
         <textarea
-          className=" bg-transparent text-gray-400 font-medium text-lg w-full"
+          className=" bg-transparent text-gray-400 font-medium text-lg w-full outline-none"
           rows="2"
           cols="50"
           placeholder="What's happening?"

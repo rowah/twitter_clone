@@ -3,7 +3,7 @@ import { BiHomeCircle } from "react-icons/bi";
 import { HiOutlineBell } from "react-icons/hi";
 import { BsThreeDots } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
-import TweetModalComponent from "../Modal";
+import TweetModalComponent from "../Modal/tweetmodal";
 
 function Aside() {
   const [modalOpen, setModalOpen] = useState(false);

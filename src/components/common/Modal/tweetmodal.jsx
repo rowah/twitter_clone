@@ -1,11 +1,14 @@
 import React, { useState } from "react";
+import { IoIosArrowDown } from "react-icons/io";
+import { BiWorld } from "react-icons/bi";
 import { Modal } from "antd";
-
+import AudienceModal from "./audiencemodal";
 const TweetModalComponent = ({ modalOpen, setModalOpen }) => {
+  const [modal2Open, setModal2Open] = useState(false);
   return (
     <>
       <Modal
-        title=""
+        footer={null}
         style={{ top: 20 }}
         open={modalOpen}
         onOk={() => setModalOpen(false)}
@@ -20,12 +23,30 @@ const TweetModalComponent = ({ modalOpen, setModalOpen }) => {
             />
           </div>
           <div className="flex-1 px-2 pt-2 mt-2">
+            <button
+              className="border border-gray-300 rounded-full px-2 flex"
+              onClick={() => setModal2Open(true)}
+            >
+              <span className="text-blue-400 font-bold">Everyone</span>
+              <IoIosArrowDown className="mt-1 ml-1 text-blue-400" />
+            </button>
+            <AudienceModal
+              modal2Open={modal2Open}
+              setModal2Open={setModal2Open}
+            />
             <textarea
-              className=" bg-transparent text-gray-400 font-medium text-lg w-full"
-              rows="2"
+              className="bg-transparent text-gray-400 font-medium text-lg w-full outline-none"
+              rows="5"
               cols="50"
               placeholder="What's happening?"
             ></textarea>
+            <div className="flex rounded-full hover:bg-blue-100 w-1/2 hover:cursor-pointer">
+              <BiWorld size={20} className="text-blue-400 ml-2 mt-0.3" />
+              <span className="ml-2 text-blue-400 font-bold">
+                Everyone can reply
+              </span>
+            </div>
+            <hr className="mt-4" />
           </div>
         </div>
         <div className="flex">
@@ -131,7 +152,7 @@ const TweetModalComponent = ({ modalOpen, setModalOpen }) => {
           </div>
 
           <div className="flex-1">
-            <button className="bg-blue-400 mt-5 hover:bg-blue-600 text-black font-bold py-2 px-8 rounded-full mr-8 float-right">
+            <button className="bg-blue-400 mt-5 hover:bg-blue-600 text-black font-bold py-2 px-8 rounded-full mr-8 float-right disabled:opacity-25">
               Tweet
             </button>
           </div>
