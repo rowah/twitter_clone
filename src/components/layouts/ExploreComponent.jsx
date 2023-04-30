@@ -275,9 +275,9 @@ function Main() {
 
 export default function ExploreComponent() {
   return (
-    <div className="mx-20 mt-4 flex w-full">
+    <div className="mx-20 mt-4 flex">
       <Aside />
-      <div className="w-3/5">
+      <div className="w-1/2">
         <Main />
       </div>
 
