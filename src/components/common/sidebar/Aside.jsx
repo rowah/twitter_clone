@@ -75,7 +75,7 @@ function Aside() {
             <span className="text-xl">Messages</span>
           </a>
           <a
-            href="bookmarks/"
+            href="/bookmarks"
             className="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:text-black"
           >
             <svg
