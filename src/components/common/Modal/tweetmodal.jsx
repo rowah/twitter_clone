@@ -4,7 +4,7 @@ import { BiWorld } from "react-icons/bi";
 import { Modal } from "antd";
 import AudienceModal from "./audiencemodal";
 const TweetModalComponent = ({ modalOpen, setModalOpen }) => {
-  const [modal2Open, setModal2Open] = useState(false);
+  const [modal1Open, setModal1Open] = useState(false);
   return (
     <>
       <Modal
@@ -25,14 +25,14 @@ const TweetModalComponent = ({ modalOpen, setModalOpen }) => {
           <div className="flex-1 px-2 pt-2 mt-2">
             <button
               className="border border-gray-300 rounded-full px-2 flex"
-              onClick={() => setModal2Open(true)}
+              onClick={() => setModal1Open(true)}
             >
               <span className="text-blue-400 font-bold">Everyone</span>
               <IoIosArrowDown className="mt-1 ml-1 text-blue-400" />
             </button>
             <AudienceModal
-              modal2Open={modal2Open}
-              setModal2Open={setModal2Open}
+              modal1Open={modal1Open}
+              setModal1Open={setModal1Open}
             />
             <textarea
               className="bg-transparent text-gray-400 font-medium text-lg w-full outline-none"

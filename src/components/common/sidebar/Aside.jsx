@@ -4,9 +4,11 @@ import { HiOutlineBell } from "react-icons/hi";
 import { BsThreeDots } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
 import TweetModalComponent from "../Modal/tweetmodal";
+import MoreModalComponent from "../Modal/moremodal";
 
 function Aside() {
   const [modalOpen, setModalOpen] = useState(false);
+  const [modal2Open, setModal2Open] = useState(false);
   const navigate = useNavigate();
   const goToRoute = (route) => {
     useNavigate(route);
@@ -125,9 +127,10 @@ function Aside() {
             </svg>
             <span className="text-xl">Profile</span>
           </a>
-          <a
-            href="/home"
-            className="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:text-black"
+
+          <div
+            className="group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:cursor-pointer h-12"
+            onClick={() => setModal2Open(true)}
           >
             <svg
               className="mr-4 h-6 w-6"
@@ -141,7 +144,11 @@ function Aside() {
               <path d="M8 12h.01M12 12h.01M16 12h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
             </svg>
             <span className="text-xl">More</span>
-          </a>
+          </div>
+          <MoreModalComponent
+            modal2Open={modal2Open}
+            setModal2Open={setModal2Open}
+          />
 
           <button
             onClick={() => setModalOpen(true)}

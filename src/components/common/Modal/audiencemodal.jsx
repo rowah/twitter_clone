@@ -4,8 +4,8 @@ import { BiWorld } from "react-icons/bi";
 import { BsPersonHeart } from "react-icons/bs";
 import { TiTick } from "react-icons/ti";
 
-const AudienceModal = ({ modal2Open, setModal2Open }) => {
-  const modal2Styles = {
+const AudienceModal = ({ modal1Open, setModal1Open }) => {
+  const modal1Styles = {
     marginLeft: "32%",
     marginTop: "0px",
     width: "20%",
@@ -18,10 +18,10 @@ const AudienceModal = ({ modal2Open, setModal2Open }) => {
       <Modal
         footer={null}
         title="Choose audience"
-        style={modal2Styles}
-        open={modal2Open}
-        onOk={() => setModal2Open(false)}
-        onCancel={() => setModal2Open(false)}
+        style={modal1Styles}
+        open={modal1Open}
+        onOk={() => setModal1Open(false)}
+        onCancel={() => setModal1Open(false)}
         width="20%"
         className=""
       >
