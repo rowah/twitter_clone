@@ -15,7 +15,7 @@ function Aside() {
   };
   return (
     <aside className="flex flex-col w-1/4 h-screen px-2 py-6 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700 sticky top-0 z-50">
-      <div className="w-full text-black h-12 h-auto">
+      <div className="w-full text-black h-auto">
         <svg
           viewBox="0 0 24 24"
           className="h-12 w-12 text-blue-400"

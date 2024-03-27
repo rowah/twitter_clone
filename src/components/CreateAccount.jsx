@@ -26,7 +26,7 @@ export default function CreateAccount() {
     <div className="bg-gray-400 ">
       <div className="flex min-h-screen items-center justify-center">
         <div className="min-h-1/2 bg-white rounded-2xl ">
-          <div className="mx-4 sm:mx-24 md:mx-34 lg:mx-56 mx-auto  flex items-center space-y-4 py-16 font-semibold text-gray-500 flex-col">
+          <div className="sm:mx-24 md:mx-34 lg:mx-56 mx-auto  flex items-center space-y-4 py-16 font-semibold text-gray-500 flex-col">
             <svg
               viewBox="0 0 24 24"
               className=" h-12 w-12 text-sky-500"
