@@ -4,16 +4,20 @@ import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 export default function LoginComponent() {
   let navigate = useNavigate();
+  const goToRoute = (route) => {
+    navigate(route);
+  };
   const [credentials, setCredentials] = useState({});
   const googleLogIn = async () => {
     let response = GoogleSignInAPI();
+    goToRoute("/home");
     console.log(response);
   };
   const login = async () => {
     try {
       const res = await LoginAPI(credentials.email, credentials.password);
       toast.success("Signed into Twitter");
-      navigate("/home");
+      goToRoute("/home");
       console.log(res);
     } catch (error) {
       console.log(error);

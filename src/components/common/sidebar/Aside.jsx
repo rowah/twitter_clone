@@ -11,7 +11,7 @@ function Aside() {
   const [modal2Open, setModal2Open] = useState(false);
   const navigate = useNavigate();
   const goToRoute = (route) => {
-    useNavigate(route);
+    navigate(route);
   };
   return (
     <aside className="flex flex-col w-1/4 h-screen px-2 py-6 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700 sticky top-0 z-50">
@@ -28,16 +28,16 @@ function Aside() {
 
         <nav className="mt-5 px-2">
           {/* use navigate and not the links in the future */}
-          <a
-            href="/home"
-            className="group flex items-center px-2 py-2 text-base leading-6 font-semibold rounded-full hover:bg-gray-300 focus:bg-gray-300  text-black"
+          <div
+            className="group flex items-center px-2 py-2 text-base leading-6 font-semibold rounded-full hover:bg-gray-300 focus:bg-gray-300  text-black cursor-pointer"
+            onClick={() => goToRoute("/home")}
           >
-            <BiHomeCircle size={25} onClick={goToRoute} />
+            <BiHomeCircle size={25} />
             <span className="ml-3 text-xl">Home</span>
-          </a>
-          <a
-            href="/explore"
-            className="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-semibold rounded-full hover:bg-gray-300 hover:text-black"
+          </div>
+          <div
+            className="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-semibold rounded-full hover:bg-gray-300 hover:text-black cursor-pointer"
+            onClick={() => goToRoute("/explore")}
           >
             <svg
               className="h-6 w-6"
@@ -51,17 +51,17 @@ function Aside() {
               <path d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"></path>
             </svg>
             <span className=" ml-3 text-xl">Explore</span>
-          </a>
-          <a
-            href="/notifications"
-            className="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:text-black"
+          </div>
+          <div
+            className="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:text-black cursor-pointer"
+            onClick={() => goToRoute("/notifications")}
           >
             <HiOutlineBell size={25} />
             <span className="ml-3 text-xl">Notifications</span>
-          </a>
-          <a
-            href="/messages"
-            className="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:text-black"
+          </div>
+          <div
+            className="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:text-black cursor-pointer"
+            onClick={() => goToRoute("/messages")}
           >
             <svg
               className="mr-4 h-6 w-6"
@@ -75,10 +75,10 @@ function Aside() {
               <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
             </svg>
             <span className="text-xl">Messages</span>
-          </a>
-          <a
-            href="/bookmarks"
-            className="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:text-black"
+          </div>
+          <div
+            className="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:text-black cursor-pointer"
+            onClick={() => goToRoute("/bookmarks")}
           >
             <svg
               className="mr-4 h-6 w-6"
@@ -92,10 +92,10 @@ function Aside() {
               <path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path>
             </svg>
             <span className="text-xl">Bookmarks</span>
-          </a>
-          <a
-            href="/profile"
-            className="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:text-black"
+          </div>
+          <div
+            className="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:text-black cursor-pointer"
+            onClick={() => goToRoute("/profile")}
           >
             <svg
               className="mr-4 h-6 w-6"
@@ -109,10 +109,10 @@ function Aside() {
               <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
             </svg>
             <span className="text-xl">Twitter Blue</span>
-          </a>
-          <a
-            href="/profile"
-            className="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:text-black"
+          </div>
+          <div
+            className="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:text-black cursor-pointer"
+            onClick={() => goToRoute("/profile")}
           >
             <svg
               className="mr-4 h-6 w-6"
@@ -126,7 +126,7 @@ function Aside() {
               <path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
             </svg>
             <span className="text-xl">Profile</span>
-          </a>
+          </div>
 
           <div
             className="group flex items-center px-2 py-2 text-base leading-6 font-medium rounded-full hover:bg-gray-300 hover:cursor-pointer h-12"
@@ -163,28 +163,28 @@ function Aside() {
         </nav>
 
         <div className="flex-shrink-0 flex hover:bg-blue-00 rounded-full p-4 mt-12 mr-2">
-          <a href="/" className="flex-shrink-0 group block">
-            <div className="flex items-center">
-              <div>
-                <img
-                  className="inline-block h-10 w-10 rounded-full"
-                  src="https://pbs.twimg.com/profile_images/1504385195037843457/p5kNTiBq_400x400.jpg"
-                  alt="user profile image"
-                />
-              </div>
-              <div className="ml-3">
-                <p className="text-base leading-6 font-medium text-black">
-                  Jay Rowah
-                </p>
-                <p className="text-sm leading-5 font-medium text-gray-400 group-hover:text-gray-300 transition ease-in-out duration-150">
-                  @JRowah
-                </p>
-              </div>
-              <div className="ml-20">
-                <BsThreeDots />
-              </div>
+          {/* <a href="/" className="flex-shrink-0 group block"> */}
+          <div className="flex items-center">
+            <div>
+              <img
+                className="inline-block h-10 w-10 rounded-full"
+                src="https://pbs.twimg.com/profile_images/1504385195037843457/p5kNTiBq_400x400.jpg"
+                alt="user profile image"
+              />
             </div>
-          </a>
+            <div className="ml-3">
+              <p className="text-base leading-6 font-medium text-black">
+                Jay Rowah
+              </p>
+              <p className="text-sm leading-5 font-medium text-gray-400 group-hover:text-gray-300 transition ease-in-out duration-150">
+                @JRowah
+              </p>
+            </div>
+            <div className="ml-20">
+              <BsThreeDots />
+            </div>
+          </div>
+          {/* </a> */}
         </div>
       </div>
     </aside>
